@@ -170,3 +170,43 @@ font-family: 'Quattrocento', serif;
 @media only screen and (min-width: 961px) {
 
 }
+
+
+
+
+
+/* Styles for different types of media*/
+.item{
+  position: relative;
+}
+.zgame{
+
+}
+.zsong{
+
+}
+.item p{
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+.icon{
+    width:25px;
+    position: absolute;
+    top:5px;
+    right:5px;
+}
+.zsong .play{
+    width:50px;
+    position: absolute;
+    top:5px;
+    left:5px;
+}
+.zsong .aud{
+    width:80%;
+}
+.zart .thumb{
+      width:80%;
+}
+.zanime{
+
+}
