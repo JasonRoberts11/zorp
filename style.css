@@ -1,0 +1,16 @@
+*{
+  //border:1px solid black;
+}
+
+.bg-primary{
+  background-color: grey !important;
+}
+
+.btn-secondary{
+  //background-color: blue !important;
+  //border: blue 1px solid !important;
+}
+
+.left-padding{
+  padding-left: 20px;
+}
