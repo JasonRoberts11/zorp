@@ -15,7 +15,7 @@ body{
     background: #134f5c !important;
 }
 
-.bg-col1{
+.bg-col1,.bg-col11{
   background: #FFE0FF;
   background-image: url('images/tile1.png');
   background-size: 150px 150px;
@@ -25,7 +25,7 @@ body{
   background-image: url('images/tile1.png');
   background-size: 150px 150px;
 }
-.bg-col2{
+.bg-col2,.bg-col21{
   background: #E0FFFF;
   background-image: url('images/tile1.png');
   background-size: 150px 150px;
@@ -35,7 +35,7 @@ body{
   background-image: url('images/tile1.png');
   background-size: 150px 150px;
 }
-.bg-col3{
+.bg-col3,.bg-col31{
   background: #FFFFE0;
   background-image: url('images/tile1.png');
   background-size: 150px 150px;
@@ -136,6 +136,9 @@ footer{
 .white{
   color: white;
 }
+.black{
+  color:black;
+}
 
 .list-unstyled li a{
   color: white;
@@ -209,4 +212,74 @@ font-family: 'Quattrocento', serif;
 }
 .zanime{
 
+}
+
+
+
+
+
+
+
+/*Styles for user*/
+.usericon{
+  width:50px;
+  margin-bottom: 15px;
+}
+.description{
+  height:100px;
+  overflow: auto;
+  border-radius: 10px;
+  background-color: white;
+  padding: 10px
+}
+.featuredproj{
+  position:relative;
+  width:100%;
+}
+.relpos{
+  position:relative;
+}
+.relpos .icon{
+    width:25px;
+    position: absolute;
+    top:5px;
+    right:5px;
+}
+.featuredproj img{
+  width:100%;
+}
+.scrollhoriz{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  height:300px;
+  overflow:auto;
+  align-items: flex-start;
+}
+.scrollinside{
+  height:250px;
+  display:flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+
+  width:1300px;
+}
+.schp{ margin:10px;
+  background-color: white;
+  display:inline;
+  width:300px;
+  min-height:100px;
+  max-height: 250px;
+  border-radius: 10px;
+  box-shadow: 3px 3px #30a080 ;
+  padding:10px;
+  text-align: center;
+}
+.left{
+  text-align: left;
+}
+.hr{
+  height:0px;
+  background-color: #134f5c ;
 }
